@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Geolocalização by: Vinícius Ferreira
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Clique no botão para saber sua Localização</p>
+  <button ion-button (click)="mostrarLocalizacao()">Button</button>
+    <p>Lat: {{ lat }}</p>
+    <p>Lng: {{ lng }}</p>
+  
+</ion-content>
+
